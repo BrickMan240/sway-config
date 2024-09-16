@@ -81,6 +81,9 @@ output * bg ~/Downloads/wallpaper/first-collection/ubuntu-1.png fill
     # Kill focused window
     bindsym $mod+Shift+q kill
 
+	# Lock screen
+	bindsym $mod+p exec swaylock
+
     # Start your launcher
     bindsym $mod+d exec $menu
 
@@ -134,6 +137,18 @@ output * bg ~/Downloads/wallpaper/first-collection/ubuntu-1.png fill
     bindsym $mod+8 workspace number 8
     bindsym $mod+9 workspace number 9
     bindsym $mod+0 workspace number 10
+
+    bindsym $mod+KP_1 workspace number 1
+    bindsym $mod+KP_2 workspace number 2
+    bindsym $mod+KP_3 workspace number 3
+    bindsym $mod+KP_4 workspace number 4
+    bindsym $mod+KP_5 workspace number 5
+    bindsym $mod+KP_6 workspace number 6
+    bindsym $mod+KP_7 workspace number 7
+    bindsym $mod+KP_8 workspace number 8
+    bindsym $mod+KP_9 workspace number 9
+    bindsym $mod+KP_0 workspace number 10
+
     # Move focused container to workspace
     bindsym $mod+Shift+1 move container to workspace number 1
     bindsym $mod+Shift+2 move container to workspace number 2
